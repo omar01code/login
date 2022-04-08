@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,400;1,500&display=swap');
+
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right,#DAE2F8, #D6A4A4);
+}
+img {
+    width: 200px;
+}
+
+.countainer {
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    width: 350px;
+    height: 500px;
+    background: linear-gradient(to left, #E0EAFC,#CFDEF3);
+    position: relative;
+}
+.countainer .logo {
+    position: absolute;
+    top: 0%;
+    left: 17.5%;
+}
+.countainer .logo h1 {
+    font-family: Rubik;
+    text-align: center;
+    color: rgb(175, 172, 172);
+    font-size: 20px;
+}
+.countainer .main {
+    width: 100%;
+    position: absolute;
+    top: 45%; left: 17.5%;
+}
+.countainer .main input {
+    padding: 5px;
+    width: 200px;
+    margin: 5px;
+    border: 2px solid rgba(131, 208, 228, 0.842);
+    border-radius: 2rem;
+    text-align: center;
+    background: none;
+    outline: none;
+    box-shadow: 2px 2px 3px rgb(199, 193, 193) inset;
+}
+
+.countainer .main button:hover {
+    width: 110px;
+    border-color: rgb(238, 135, 0);
+    background-color: rgb(241, 145, 0);
+}
+.countainer .main input:hover {
+    width: 210px;
+    border-color: rgb(1, 114, 58);
+}
+.countainer button {
+    margin-left: 55px;
+    margin-top: 5px;
+    border: 1px solid darkcyan;
+    border-radius: 2rem;
+    outline: none;
+    width: 100px;
+    padding: 5px;
+    background: none;
+    cursor: pointer;
+    color: #07060679;
+}
+.countainer .social {
+    position: absolute;
+    top: 85%;
+    left: 60px;
+    font-family: Rubik;
+    font-size: 13px;
+}
+.countainer .social h2 {
+    color: gray;
+    margin-top: 5px;
+}
+.countainer .social i {
+    margin-left: 30px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.countainer  #fb {
+    color: blue;
+}
+.countainer .social #google {
+    color: red;
+}
+.countainer  #twit {
+    color: cadetblue;
+}
+.countainer  #fb:hover,
+.countainer  #google:hover,
+.countainer  #twit:hover{
+    font-size: 30px;
+}
